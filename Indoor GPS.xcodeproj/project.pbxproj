@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42E8DBE42333D4070054EFE8 /* Mapbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42E8DBE32333D4070054EFE8 /* Mapbox.framework */; };
+		42E8DBE52333D4070054EFE8 /* Mapbox.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 42E8DBE32333D4070054EFE8 /* Mapbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		42EB355523317099002B12BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EB355423317099002B12BB /* AppDelegate.swift */; };
+		42EB355723317099002B12BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EB355623317099002B12BB /* ViewController.swift */; };
+		42EB35592331709D002B12BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42EB35582331709D002B12BB /* Assets.xcassets */; };
+		42EB355C2331709D002B12BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42EB355A2331709D002B12BB /* Main.storyboard */; };
+		42EB35682331709D002B12BB /* Indoor_GPSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EB35672331709D002B12BB /* Indoor_GPSTests.swift */; };
+		42EB35732331709D002B12BB /* Indoor_GPSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EB35722331709D002B12BB /* Indoor_GPSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42EB35642331709D002B12BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42EB354923317099002B12BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42EB355023317099002B12BB;
+			remoteInfo = "Indoor GPS";
+		};
+		42EB356F2331709D002B12BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42EB354923317099002B12BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42EB355023317099002B12BB;
+			remoteInfo = "Indoor GPS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		42E8DBE62333D4070054EFE8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				42E8DBE52333D4070054EFE8 /* Mapbox.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		42E8DBE32333D4070054EFE8 /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mapbox.framework; sourceTree = "<group>"; };
+		42EB355123317099002B12BB /* Indoor GPS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Indoor GPS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42EB355423317099002B12BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42EB355623317099002B12BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42EB35582331709D002B12BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42EB355B2331709D002B12BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42EB355D2331709D002B12BB /* Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Info.plist; sourceTree = "<group>"; };
+		42EB355E2331709D002B12BB /* Indoor_GPS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Indoor_GPS.entitlements; sourceTree = "<group>"; };
+		42EB35632331709D002B12BB /* Indoor GPSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Indoor GPSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42EB35672331709D002B12BB /* Indoor_GPSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Indoor_GPSTests.swift; sourceTree = "<group>"; };
+		42EB35692331709D002B12BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42EB356E2331709D002B12BB /* Indoor GPSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Indoor GPSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42EB35722331709D002B12BB /* Indoor_GPSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Indoor_GPSUITests.swift; sourceTree = "<group>"; };
+		42EB35742331709D002B12BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42EB354E23317099002B12BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42E8DBE42333D4070054EFE8 /* Mapbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EB35602331709D002B12BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EB356B2331709D002B12BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42EB354823317099002B12BB = {
+			isa = PBXGroup;
+			children = (
+				42E8DBE32333D4070054EFE8 /* Mapbox.framework */,
+				42EB355323317099002B12BB /* Indoor GPS */,
+				42EB35662331709D002B12BB /* Indoor GPSTests */,
+				42EB35712331709D002B12BB /* Indoor GPSUITests */,
+				42EB355223317099002B12BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42EB355223317099002B12BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42EB355123317099002B12BB /* Indoor GPS.app */,
+				42EB35632331709D002B12BB /* Indoor GPSTests.xctest */,
+				42EB356E2331709D002B12BB /* Indoor GPSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42EB355323317099002B12BB /* Indoor GPS */ = {
+			isa = PBXGroup;
+			children = (
+				42EB355423317099002B12BB /* AppDelegate.swift */,
+				42EB355623317099002B12BB /* ViewController.swift */,
+				42EB35582331709D002B12BB /* Assets.xcassets */,
+				42EB355A2331709D002B12BB /* Main.storyboard */,
+				42EB355D2331709D002B12BB /* Info.plist */,
+				42EB355E2331709D002B12BB /* Indoor_GPS.entitlements */,
+			);
+			path = "Indoor GPS";
+			sourceTree = "<group>";
+		};
+		42EB35662331709D002B12BB /* Indoor GPSTests */ = {
+			isa = PBXGroup;
+			children = (
+				42EB35672331709D002B12BB /* Indoor_GPSTests.swift */,
+				42EB35692331709D002B12BB /* Info.plist */,
+			);
+			path = "Indoor GPSTests";
+			sourceTree = "<group>";
+		};
+		42EB35712331709D002B12BB /* Indoor GPSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				42EB35722331709D002B12BB /* Indoor_GPSUITests.swift */,
+				42EB35742331709D002B12BB /* Info.plist */,
+			);
+			path = "Indoor GPSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42EB355023317099002B12BB /* Indoor GPS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42EB35772331709D002B12BB /* Build configuration list for PBXNativeTarget "Indoor GPS" */;
+			buildPhases = (
+				42EB354D23317099002B12BB /* Sources */,
+				42EB354E23317099002B12BB /* Frameworks */,
+				42EB354F23317099002B12BB /* Resources */,
+				42E8DBE62333D4070054EFE8 /* Embed Frameworks */,
+				42E8DBE72333D41A0054EFE8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Indoor GPS";
+			productName = "Indoor GPS";
+			productReference = 42EB355123317099002B12BB /* Indoor GPS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42EB35622331709D002B12BB /* Indoor GPSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42EB357A2331709D002B12BB /* Build configuration list for PBXNativeTarget "Indoor GPSTests" */;
+			buildPhases = (
+				42EB355F2331709D002B12BB /* Sources */,
+				42EB35602331709D002B12BB /* Frameworks */,
+				42EB35612331709D002B12BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42EB35652331709D002B12BB /* PBXTargetDependency */,
+			);
+			name = "Indoor GPSTests";
+			productName = "Indoor GPSTests";
+			productReference = 42EB35632331709D002B12BB /* Indoor GPSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		42EB356D2331709D002B12BB /* Indoor GPSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42EB357D2331709D002B12BB /* Build configuration list for PBXNativeTarget "Indoor GPSUITests" */;
+			buildPhases = (
+				42EB356A2331709D002B12BB /* Sources */,
+				42EB356B2331709D002B12BB /* Frameworks */,
+				42EB356C2331709D002B12BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42EB35702331709D002B12BB /* PBXTargetDependency */,
+			);
+			name = "Indoor GPSUITests";
+			productName = "Indoor GPSUITests";
+			productReference = 42EB356E2331709D002B12BB /* Indoor GPSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42EB354923317099002B12BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Cody Nathanael Ridge";
+				TargetAttributes = {
+					42EB355023317099002B12BB = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					42EB35622331709D002B12BB = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 42EB355023317099002B12BB;
+					};
+					42EB356D2331709D002B12BB = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 42EB355023317099002B12BB;
+					};
+				};
+			};
+			buildConfigurationList = 42EB354C23317099002B12BB /* Build configuration list for PBXProject "Indoor GPS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42EB354823317099002B12BB;
+			productRefGroup = 42EB355223317099002B12BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42EB355023317099002B12BB /* Indoor GPS */,
+				42EB35622331709D002B12BB /* Indoor GPSTests */,
+				42EB356D2331709D002B12BB /* Indoor GPSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42EB354F23317099002B12BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42EB35592331709D002B12BB /* Assets.xcassets in Resources */,
+				42EB355C2331709D002B12BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EB35612331709D002B12BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EB356C2331709D002B12BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42E8DBE72333D41A0054EFE8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework/strip-frameworks.sh\"x.framework/strip-frameworks.sh\"\npath.\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42EB354D23317099002B12BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42EB355723317099002B12BB /* ViewController.swift in Sources */,
+				42EB355523317099002B12BB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EB355F2331709D002B12BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42EB35682331709D002B12BB /* Indoor_GPSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42EB356A2331709D002B12BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42EB35732331709D002B12BB /* Indoor_GPSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42EB35652331709D002B12BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42EB355023317099002B12BB /* Indoor GPS */;
+			targetProxy = 42EB35642331709D002B12BB /* PBXContainerItemProxy */;
+		};
+		42EB35702331709D002B12BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42EB355023317099002B12BB /* Indoor GPS */;
+			targetProxy = 42EB356F2331709D002B12BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42EB355A2331709D002B12BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42EB355B2331709D002B12BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42EB35752331709D002B12BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42EB35762331709D002B12BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		42EB35782331709D002B12BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Indoor GPS/Indoor_GPS.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Indoor GPS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "txt.Indoor-GPS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		42EB35792331709D002B12BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Indoor GPS/Indoor_GPS.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Indoor GPS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "txt.Indoor-GPS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		42EB357B2331709D002B12BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Indoor GPSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "txt.Indoor-GPSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Indoor GPS.app/Contents/MacOS/Indoor GPS";
+			};
+			name = Debug;
+		};
+		42EB357C2331709D002B12BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Indoor GPSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "txt.Indoor-GPSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Indoor GPS.app/Contents/MacOS/Indoor GPS";
+			};
+			name = Release;
+		};
+		42EB357E2331709D002B12BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Indoor GPSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "txt.Indoor-GPSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Indoor GPS";
+			};
+			name = Debug;
+		};
+		42EB357F2331709D002B12BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Indoor GPSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "txt.Indoor-GPSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Indoor GPS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42EB354C23317099002B12BB /* Build configuration list for PBXProject "Indoor GPS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42EB35752331709D002B12BB /* Debug */,
+				42EB35762331709D002B12BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42EB35772331709D002B12BB /* Build configuration list for PBXNativeTarget "Indoor GPS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42EB35782331709D002B12BB /* Debug */,
+				42EB35792331709D002B12BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42EB357A2331709D002B12BB /* Build configuration list for PBXNativeTarget "Indoor GPSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42EB357B2331709D002B12BB /* Debug */,
+				42EB357C2331709D002B12BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42EB357D2331709D002B12BB /* Build configuration list for PBXNativeTarget "Indoor GPSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42EB357E2331709D002B12BB /* Debug */,
+				42EB357F2331709D002B12BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42EB354923317099002B12BB /* Project object */;
+}
