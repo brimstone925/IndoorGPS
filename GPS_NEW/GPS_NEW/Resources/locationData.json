@@ -1,0 +1,13 @@
+[
+    {
+    "number": "114",
+    "building": "Stocker Center",
+    "campus": "Ohio University",
+    "id": 1001,
+    "coordinates": {
+        "longitude": -116.166868,
+        "latitude": 34.011286
+    },
+    "imageName": "stocker"
+}
+]
