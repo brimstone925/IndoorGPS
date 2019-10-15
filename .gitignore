@@ -1,4 +1,4 @@
 #This should be a commented line 
 *.o 
 *.exe 
-*.DS_Store
+.DS_Store
