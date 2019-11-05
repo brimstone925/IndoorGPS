@@ -22,6 +22,10 @@
 		682EA552234EB03300221EED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682EA551234EB03300221EED /* AppDelegate.swift */; };
 		682EA555234EB67A00221EED /* locationData.json in Resources */ = {isa = PBXBuildFile; fileRef = 682EA554234EB67A00221EED /* locationData.json */; };
 		682EA557234EB76D00221EED /* stocker.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 682EA556234EB76D00221EED /* stocker.jpg */; };
+		68F5E3EE2368D5FB00AEAB71 /* 125.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68F5E3EA2368D5FB00AEAB71 /* 125.jpg */; };
+		68F5E3EF2368D5FB00AEAB71 /* 107.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68F5E3EB2368D5FB00AEAB71 /* 107.jpg */; };
+		68F5E3F02368D5FB00AEAB71 /* 159.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68F5E3EC2368D5FB00AEAB71 /* 159.jpg */; };
+		68F5E3F12368D5FB00AEAB71 /* 195.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68F5E3ED2368D5FB00AEAB71 /* 195.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +46,10 @@
 		682EA551234EB03300221EED /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../GPS/GPS/AppDelegate.swift; sourceTree = "<group>"; };
 		682EA554234EB67A00221EED /* locationData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = locationData.json; sourceTree = "<group>"; };
 		682EA556234EB76D00221EED /* stocker.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = stocker.jpg; path = ../../../../Downloads/stocker.jpg; sourceTree = "<group>"; };
+		68F5E3EA2368D5FB00AEAB71 /* 125.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 125.jpg; path = ../../../../Downloads/125.jpg; sourceTree = "<group>"; };
+		68F5E3EB2368D5FB00AEAB71 /* 107.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 107.jpg; path = ../../../../Downloads/107.jpg; sourceTree = "<group>"; };
+		68F5E3EC2368D5FB00AEAB71 /* 159.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 159.jpg; path = ../../../../Downloads/159.jpg; sourceTree = "<group>"; };
+		68F5E3ED2368D5FB00AEAB71 /* 195.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 195.jpg; path = ../../../../Downloads/195.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +129,10 @@
 			isa = PBXGroup;
 			children = (
 				682EA554234EB67A00221EED /* locationData.json */,
+				68F5E3EB2368D5FB00AEAB71 /* 107.jpg */,
+				68F5E3EA2368D5FB00AEAB71 /* 125.jpg */,
+				68F5E3EC2368D5FB00AEAB71 /* 159.jpg */,
+				68F5E3ED2368D5FB00AEAB71 /* 195.jpg */,
 				682EA556234EB76D00221EED /* stocker.jpg */,
 			);
 			path = Resources;
@@ -184,9 +196,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68F5E3F12368D5FB00AEAB71 /* 195.jpg in Resources */,
+				68F5E3EF2368D5FB00AEAB71 /* 107.jpg in Resources */,
+				68F5E3EE2368D5FB00AEAB71 /* 125.jpg in Resources */,
 				682EA555234EB67A00221EED /* locationData.json in Resources */,
 				682EA557234EB76D00221EED /* stocker.jpg in Resources */,
 				682EA539234E81FB00221EED /* LaunchScreen.storyboard in Resources */,
+				68F5E3F02368D5FB00AEAB71 /* 159.jpg in Resources */,
 				682EA536234E81FB00221EED /* Preview Assets.xcassets in Resources */,
 				682EA533234E81FB00221EED /* Assets.xcassets in Resources */,
 			);
@@ -353,7 +369,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "myself.GPS-NEW";
+				PRODUCT_BUNDLE_IDENTIFIER = "GPS-NEW";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -373,7 +389,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "myself.GPS-NEW";
+				PRODUCT_BUNDLE_IDENTIFIER = "GPS-NEW";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

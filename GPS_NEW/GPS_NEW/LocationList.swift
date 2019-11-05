@@ -17,9 +17,11 @@ struct LocationList: View {
                 }
             }
             .navigationBarTitle(Text("Locations"))
+            
         }
     }
 }
+
 
 struct LocationList_Previews: PreviewProvider {
     static var previews: some View {
