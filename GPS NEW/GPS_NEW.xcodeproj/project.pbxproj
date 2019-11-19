@@ -83,7 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				682EA540234E820500221EED /* Models */,
-				682EA543234E869C00221EED /* Support */,
+				682EA543234E869C00221EED /* Supporting Views */,
 				682EA553234EB62100221EED /* Resources */,
 				682EA551234EB03300221EED /* AppDelegate.swift */,
 				682EA52B234E81FB00221EED /* SceneDelegate.swift */,
@@ -116,13 +116,13 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		682EA543234E869C00221EED /* Support */ = {
+		682EA543234E869C00221EED /* Supporting Views */ = {
 			isa = PBXGroup;
 			children = (
-				682EA544234E86BA00221EED /* MapView.swift */,
 				682EA546234E88FD00221EED /* image.swift */,
+				682EA544234E86BA00221EED /* MapView.swift */,
 			);
-			path = Support;
+			path = "Supporting Views";
 			sourceTree = "<group>";
 		};
 		682EA553234EB62100221EED /* Resources */ = {
