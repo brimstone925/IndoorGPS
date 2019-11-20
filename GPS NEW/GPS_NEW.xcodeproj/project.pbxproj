@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		42BABADC2384970000684A69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BABADB2384970000684A69 /* AppDelegate.swift */; };
 		42BABADE2384980000684A69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BABADD2384980000684A69 /* AppDelegate.swift */; };
 		682EA52C234E81FB00221EED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682EA52B234E81FB00221EED /* SceneDelegate.swift */; };
 		682EA52F234E81FB00221EED /* GPS_NEW.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 682EA52D234E81FB00221EED /* GPS_NEW.xcdatamodeld */; };
@@ -30,7 +29,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		42BABADB2384970000684A69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42BABADD2384980000684A69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		682EA526234E81FB00221EED /* GPS_NEW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPS_NEW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		682EA52B234E81FB00221EED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = Resources/SceneDelegate.swift; sourceTree = "<group>"; };
@@ -130,7 +128,6 @@
 		682EA553234EB62100221EED /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				42BABADB2384970000684A69 /* AppDelegate.swift */,
 				682EA554234EB67A00221EED /* locationData.json */,
 				68F5E3EB2368D5FB00AEAB71 /* 107.jpg */,
 				68F5E3EA2368D5FB00AEAB71 /* 125.jpg */,
@@ -227,7 +224,6 @@
 				682EA542234E822500221EED /* LocationList.swift in Sources */,
 				682EA531234E81FB00221EED /* LocationView.swift in Sources */,
 				682EA547234E88FD00221EED /* image.swift in Sources */,
-				42BABADC2384970000684A69 /* AppDelegate.swift in Sources */,
 				682EA52C234E81FB00221EED /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
