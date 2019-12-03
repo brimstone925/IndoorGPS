@@ -1,0 +1,13 @@
+version: "Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+options: "eb92fb4e77ec969ca48a44b0bd313a1d"
+build_time: [1575404885, 110207000]
+inputs:
+  "/Users/groverlab/Documents/NutterClasses/IndoorGPS/GPS NEW/GPS_NEW/AppDelegate.swift": [9223372036, 854775807]
+  "/Users/groverlab/Documents/NutterClasses/IndoorGPS/GPS NEW/GPS_NEW/Models/Data.swift": [9223372036, 854775807]
+  "/Users/groverlab/Documents/NutterClasses/IndoorGPS/GPS NEW/GPS_NEW/Supporting Views/MapView.swift": [9223372036, 854775807]
+  "/Users/groverlab/Documents/NutterClasses/IndoorGPS/GPS NEW/GPS_NEW/LocationRow.swift": [9223372036, 854775807]
+  "/Users/groverlab/Documents/NutterClasses/IndoorGPS/GPS NEW/GPS_NEW/Models/Location.swift": [9223372036, 854775807]
+  "/Users/groverlab/Documents/NutterClasses/IndoorGPS/GPS NEW/GPS_NEW/LocationList.swift": [9223372036, 854775807]
+  "/Users/groverlab/Documents/NutterClasses/IndoorGPS/GPS NEW/GPS_NEW/LocationView.swift": [9223372036, 854775807]
+  "/Users/groverlab/Documents/NutterClasses/IndoorGPS/GPS NEW/GPS_NEW/Supporting Views/image.swift": [9223372036, 854775807]
+  "/Users/groverlab/Documents/NutterClasses/IndoorGPS/GPS NEW/GPS_NEW/Resources/SceneDelegate.swift": [9223372036, 854775807]

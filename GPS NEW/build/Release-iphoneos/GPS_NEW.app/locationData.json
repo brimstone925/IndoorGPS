@@ -1,0 +1,49 @@
+[
+    {
+        "number": "125B",
+        "building": "Stocker Center",
+        "campus": "Ohio University",
+        "id": 1001,
+        "coordinates": {
+        "longitude": -82.107215,
+        "latitude": 39.32574
+    },
+        "imageName": "125"
+},
+     {
+        "number": "107",
+        "building": "Stocker Center",
+        "campus": "Ohio University",
+        "id": 1002,
+        "coordinates": {
+            "longitude": -82.106770,
+            "latitude": 39.3326004
+        },
+        "imageName": "107"
+    },
+     
+      {
+         "number": "195",
+         "building": "Stocker Center",
+         "campus": "Ohio University",
+         "id": 1003,
+         "coordinates": {
+             "longitude": -82.106678,
+             "latitude": 39.326093
+         },
+         "imageName": "195"
+     },
+      
+       {
+          "number": "159",
+          "building": "Stocker Center",
+          "campus": "Ohio University",
+          "id": 1004,
+          "coordinates": {
+              "longitude": -82.107056,
+              "latitude": 39.326338
+          },
+          "imageName": "159"
+      }
+       
+]
