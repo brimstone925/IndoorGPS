@@ -14,7 +14,7 @@ struct LocationView: View {
     var body: some View {
         VStack {
             MapView(coordinate: location.locationCoordinate)
-                .frame(height: 300)
+                .frame(height: 350)
             
             image(image: location.image)
                 .offset(x: 0, y: -130)

@@ -6,8 +6,10 @@
 //  Copyright © 2019 Dylan Smith. All rights reserved.
 //
 
+import UIKit
 import SwiftUI
 import MapKit
+import CoreLocation
 
 struct MapView: UIViewRepresentable {
     
