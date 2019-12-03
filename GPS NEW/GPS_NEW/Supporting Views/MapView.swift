@@ -18,7 +18,18 @@ struct MapView: UIViewRepresentable {
     func makeUIView(context: Context) -> MKMapView {
         MKMapView(frame: .zero)
     }
-
+    
+    /**
+           This would be an example of some documentation.
+    
+           - Parameter example: The parameter that I am using for an example, not actually inside of the code
+    
+           - Returns: An example data type.
+    
+           - Warning: Make sure to not pass in xyz thing.
+    
+           - Author: Dylan Smith
+    */
     func updateUIView(_ view: MKMapView, context: Context) {
         let span = MKCoordinateSpan(latitudeDelta: 0.02, longitudeDelta: 0.02)
         let region = MKCoordinateRegion(center: coordinate, span: span)
